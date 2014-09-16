@@ -11,3 +11,9 @@ gulp.task('sass', function() {
     .pipe(sass())
     .pipe(gulp.dest(paths.cssDir));
 });
+
+gulp.task('bootstrap', function() {
+	gulp.src(paths.scssDir + 'bootstrap/bootstrap.scss')
+    .pipe(sass())
+    .pipe(gulp.dest(paths.cssDir));
+});

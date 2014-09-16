@@ -14,18 +14,23 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="{{ paths.theme }}css/normalize.min.css">
+        <!-- Font Awesome and Bootstrap -->
+        <link rel="stylesheet" href="{{ paths.theme }}css/font-awesome.css">
+        <link rel="stylesheet" href="{{ paths.theme }}css/bootstrap.css">
+
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="{{ paths.theme }}css/app.css">
 
         <script src="{{ paths.theme }}js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
+        <!-- Get jQuery from CDN -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="{{ paths.theme }}js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+        <!-- Get Bootstrap JS from CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
         <script src="{{ paths.theme }}js/app.js"></script>
 

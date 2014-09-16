@@ -1,0 +1,27 @@
+{
+  "name": "clean",
+  "version": "0.0.1",
+  "description": "A clean and professional theme for OLP",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babaggeii/bolt-bourbon-neat-bitters.git"
+  },
+  "keywords": [
+    "clean",
+    "professional"
+  ],
+  "author": "Andy Jessop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babaggeii/bolt-bourbon-neat-bitters/issues"
+  },
+  "homepage": "https://github.com/babaggeii/bolt-bourbon-neat-bitters",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-ruby-sass": "^0.7.1"
+  }
+}
