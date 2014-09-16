@@ -11,7 +11,7 @@ Gulp is used to compile the scss
 	$ npm init
 #### Install gulp and gulp-ruby-sass:
 	$ npm install gulp --save-dev
-	$ npm install gulp-ruby-sass --dave-dev
+	$ npm install gulp-ruby-sass --save-dev
 
 =====
 
