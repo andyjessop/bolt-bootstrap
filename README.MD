@@ -15,12 +15,12 @@ Gulp is used to compile the scss
 
 =====
 
-### Install bourbon and neat in scss directory:
+### Install bourbon in scss directory:
 
-#### Install gems if not already installed:
+#### Install gem if not already installed:
 	$ gem install bourbon
 
-#### Install bourbon and neat into scss directory:
+#### Install bourbon into scss directory:
 	$ cd scss
 	$ bourbon install
 
@@ -36,9 +36,11 @@ If everything's hooked-up then this change should be relfected in the `css/app.c
 ## Compiling
 
 Bootstrap is compiled with:
+
 	$ gulp bootstrap
 
 Custom CSS is compiled with:
+
 	$ gulp sass
 
 
